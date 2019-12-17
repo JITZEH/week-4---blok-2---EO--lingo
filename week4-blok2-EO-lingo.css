@@ -1,16 +1,30 @@
 body {
 text-align: center;
+background-color: lightgray;
+  position: absolute;
+   left: 50%;
+   top: 20%;
+  transform: translate(-50%, -50%)
 }
 #geel {
 	background-color: rgb(255, 232, 99);
 	height: 250px;
-	width: 500px;
+	width: 700px;
 }
+
+#wit {
+	background-color: white;
+	height: 175px;
+	width: 700px;
+
+}
+
 
 .text {
 	text-align: left;
 	font-size: 20px;
 	padding-left: 20px;
+
 }
 
 input {
@@ -24,4 +38,13 @@ button {
 	width: 120px;
 	height: 30px;
 	text-align: center;
+}
+.vierkant {
+	border-style: solid;
+	width: 100px;
+	height: 120px;
+	font-weight: bold;
+	font-size: 120px;
+	display:inline-block;
+	margin: 20px 10px;
 }
