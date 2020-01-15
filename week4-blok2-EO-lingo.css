@@ -1,10 +1,8 @@
 body {
 text-align: center;
 background-color: lightgray;
-  position: absolute;
-   left: 50%;
-   top: 20%;
-  transform: translate(-50%, -50%)
+     display: table;
+    margin: 0 auto;
 }
 #geel {
 	background-color: rgb(255, 232, 99);
@@ -14,7 +12,7 @@ background-color: lightgray;
 
 #wit {
 	background-color: white;
-	height: 175px;
+	height: 875px;
 	width: 700px;
 
 }
